@@ -23,7 +23,7 @@ int main()
         {
                 for(j=1; j<=m; j++)
                 {
-                        cout<<" "<<alloc[i][j]<<" ";
+                        cout<<alloc[i][j]<<"\t";
                 }
                 cout<<"\n";
         }
@@ -44,7 +44,7 @@ int main()
         {
                 for(j=1; j<=m; j++)
                 {
-                        cout<<" "<<max[i][j]<<" ";
+                        cout<<max[i][j]<<"\t";
                 }
                 cout<<"\n";
         }
@@ -59,7 +59,7 @@ int main()
 		cout<<"\n----- Avail Matrix ----------\n";
         for(i=1;i<=m;i++)
         {
-        		cout<<" "<<avail[i]<<" ";
+        		cout<<avail[i]<<"\t";
 		}
 		cout<<"\n";
 		
@@ -84,7 +84,7 @@ int main()
         {
                 for(j=1; j<=m; j++)
                 {
-                        cout<<" "<<need[i][j]<<" ";
+                        cout<<need[i][j]<<"\t";
                 }
                 cout<<"\n";
         }
@@ -118,7 +118,7 @@ int main()
     	cout<<"\n----- Avail Memory after operation ----------\n";
         for(y=1;y<=m;y++)
         {
-        		cout<<" "<<avail[y]<<" ";
+        		cout<<avail[y]<<"\t";
 		}
 		cout<<"\n";
   
@@ -126,7 +126,6 @@ int main()
     for (i = 0; i < n-1; i++) 
         cout << " P" << ans[i] << " ->"; 
     cout << " P" << ans[n-1] <<endl; 
-  
+  system("pause");
     return 0; 
 } 
-
